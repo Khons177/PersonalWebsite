@@ -1,0 +1,35 @@
+body {
+	background-color: dodgerblue;
+	font-family: courier;
+}
+
+.jumbotron {
+	padding: 2%;
+	background-color: oldlace;
+	border: 3px solid grey;
+	border-radius: 10px;
+}
+
+.internal {
+	margin: 2%;
+	padding: 2%;
+	background-color: seagreen;
+	border: 3px solid darkgrey;
+	border-radius: 3px;
+}
+
+.container {
+	padding: 3%;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
