@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>
+			NHS Choices Widgets
+		</title>
+
+		<!-- CSS Styles -->
+		<link rel="stylesheet" type="text/css" href="http://media.nhschoices.nhs.uk/nhs/nhs.fs.widget/nhs.fs.widget.css" />
+		<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+		<!-- JavaScript Files -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="http://media.nhschoices.nhs.uk/nhs/nhs.fs.widget/nhs.fs.widget.min.js"></script>
+	</head>
+
+	<body>
+		<div class="internal align-center">
+			<div class="align-right">
+				<h2>
+					NHS Choices Service Finder
+				</h2>
+			</div>
+			<script type="text/javascript">
+			$(function (){
+				$('#hospitalFinder').fsNHSWidget([1,4]);
+			});
+			</script>
+			<div id="hospitalFinder" class="align-center"></div>
+		</div>
+	</body>
+</html>
